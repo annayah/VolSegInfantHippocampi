@@ -50,7 +50,7 @@ segdino3d/
 
 ## Dependencies
 
-The code was prepared for Python 3.11 and PyTorch-based training. A GPU-enabled PyTorch installation is recommended for practical experiments. If your CUDA version requires a specific PyTorch wheel, install PyTorch first using the official selector and then install the remaining dependencies from `requirements.txt`.[1] An A40 GPU was utilized from RunPod.
+The code was prepared for Python 3.11 and PyTorch-based training. A GPU-enabled PyTorch installation is recommended for practical experiments. If your CUDA version requires a specific PyTorch wheel, install PyTorch first using the official selector and then install the remaining dependencies from `requirements.txt`. An A40 GPU was utilized from RunPod.
 
 ## Data preparation
 
@@ -122,9 +122,3 @@ The training script includes seed control, fold selection, checkpointing, and st
 ## Citation
 
 If this repository is used as part of academic evaluation, cite the report and this code repository. A draft `CITATION.cff` file is included and should be updated with the final repository URL, release version, and submission details before publication.
-
-## References
-
-[1]: https://pytorch.org/get-started/locally/ "PyTorch: Get Started"
-[2]: https://monai.io/ "MONAI: Medical Open Network for AI"
-[3]: https://github.com/facebookresearch/dinov3 "DINOv3 repository"
