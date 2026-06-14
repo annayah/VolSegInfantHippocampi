@@ -13,7 +13,7 @@ The implementation follows a two-level design. At the **methodological level**, 
 | Aspect | Description |
 |---|---|
 | Task | Binary hippocampus segmentation from infant brain MRI volumes. |
-| Core idea | Adapt a frozen 2D DINOv3-style encoder to 3D segmentation using slice-wise encoding and depth-aware volumetric decoding. |
+| Core idea | Adapt a frozen 2D DINOv3-style encoder to 3D segmentation using slice-wise encoding and depth-aware volumetric decoding, without partial or full fine-tuning or retraining. |
 | Datasets used | ALBERT and LISA infant MRI datasets; data are not redistributed in this repository. |
 | Main training script | `src/train_3d_subcube_reassemble.py` |
 | Model definition | `src/model_3d.py` |
