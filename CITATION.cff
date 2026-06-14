@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the thesis report and this code repository."
+title: "Volumetric Segmentation of the Infant Hippocampus in Brain MRIs by Adapting Foundation Modelsn"
+type: software
+authors:
+  - family-names: "Usman"
+    given-names: "Annayah"
+abstract: "Research code for volumetric segmentation of the infant hippocampus in brain MRIs by adapting frozen DINO-style foundation-model features to 3D medical image segmentation."
+repository-code: "https://github.com/<your-username>/VolSegInfantHippocampus"
+license: "NOASSERTION"
+version: "0.1.0"
+date-released: "2026-06-14"
+keywords:
+  - medical-imaging
+  - MRI
+  - infants
+  - hippocampus
+  - segmentation
+  - PyTorch
+  - MONAI
+  - vision-transformer
+  - foundation-models
