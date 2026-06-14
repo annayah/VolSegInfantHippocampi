@@ -121,4 +121,4 @@ The training script includes seed control, fold selection, checkpointing, and st
 
 ## Citation
 
-If this repository is used as part of academic evaluation, cite the report and this code repository. A draft `CITATION.cff` file is included and should be updated with the final repository URL, release version, and submission details before publication.
+If this repository is used as part of academic evaluation, cite the report and this code repository. A `CITATION.cff` file is included and should be updated with the final repository URL, release version, and submission details before publication.
