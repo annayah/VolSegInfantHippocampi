@@ -28,13 +28,13 @@ segdino3d/
 ├── CITATION.cff
 ├── requirements.txt
 ├── src/
-│   ├── dataset_3d.py
-│   ├── model_3d.py
-│   ├── subcube_utils.py
-│   ├── train_3d_subcube_reassemble.py
-│   ├── metrics_3d.py
-│   ├── posthoc_eval_figures.py
-│   └── plot_learning_curves.py
+    ├── dataset_3d.py
+    ├── model_3d.py
+    ├── subcube_utils.py
+    ├── train_3d_subcube_reassemble.py
+    ├── metrics_3d.py
+    ├── posthoc_eval_figures.py
+    └── plot_learning_curves.py
 ```
 ## Major code components
 
