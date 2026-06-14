@@ -1,4 +1,4 @@
-## Volumetric Segmentation of the Infant Hippocampus in Brain MRIs by Adapting Foundation Models**
+## Volumetric Segmentation of the Infant Hippocampus in Brain MRIs by Adapting Foundation Models
 
 This repository contains the research code for a project on **3D infant hippocampus segmentation from brain MRI** using a frozen DINOv3-style vision transformer encoder and a lightweight 3D decoder. The project investigates whether strong 2D visual foundation-model representations can be adapted to volumetric medical image segmentation through slice-wise encoding, depth-aware reboxing, and sub-cube based full-volume training.
 
